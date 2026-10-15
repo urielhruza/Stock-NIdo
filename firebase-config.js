@@ -1,15 +1,10 @@
-// Pegá acá los datos de TU proyecto de Firebase (los copiás desde la consola de Firebase, ver README, paso 4).
-// Reemplazá cada texto entre comillas que dice PEGAR_AQUI por el valor que te muestra Firebase.
 export const firebaseConfig = {
-  apiKey: "PEGAR_AQUI",
-  authDomain: "PEGAR_AQUI",
-  projectId: "PEGAR_AQUI",
-  storageBucket: "PEGAR_AQUI",
-  messagingSenderId: "PEGAR_AQUI",
-  appId: "PEGAR_AQUI",
+  apiKey: "AIzaSyBDHcTK1vTwXu94pBVQJuCeOMFgCZZa6F0",
+  authDomain: "stock-libreria.firebaseapp.com",
+  projectId: "stock-libreria",
+  storageBucket: "stock-libreria.firebasestorage.app",
+  messagingSenderId: "1031710095075",
+  appId: "1:1031710095075:web:75b0d8e3ee674c614ab7d6",
 };
 
-// Emails que solo pueden MIRAR el stock, sin cambiarlo (en minúscula).
-// Tienen que ser los mismos que pongas en la función esLector de firestore.rules.
-// Ejemplo: ["contador@gmail.com"]
 export const soloLectura = [];
